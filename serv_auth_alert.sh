@@ -1,7 +1,8 @@
+#!/bin/bash
 ### Уведомление об авторизации на сервере
-
 #slack hook url
 SLACK_URL="https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX"
+
 # Получаем ip адрес
 USER_IP=$(echo $SSH_CLIENT | awk '{ print $1}')
 
